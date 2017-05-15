@@ -53,5 +53,8 @@
   "babelBoilerplateOptions": {
     "entryFileName": "vis_app.js",
     "mainVarName": "visApp"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }

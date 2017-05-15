@@ -15,4 +15,9 @@ describe('visApp', () => {
       expect(visApp.greet).to.have.always.returned('hello');
     });
   });
+  describe('Repeat function', () => {
+    it('should repeat string', () => {
+      expect(visApp.repeat('hi ', 3)).to.equal('hi hi hi ');
+    });
+  })
 });
